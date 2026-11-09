@@ -1,0 +1,111 @@
+:host {
+  display: block;
+}
+
+.site-header {
+  min-height: 150px;
+  padding: 16px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.brand {
+  width: 145px;
+  height: 125px;
+  flex: 0 0 145px;
+  display: block;
+}
+
+.brand-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.main-nav {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 34px;
+}
+
+.main-nav a {
+  color: #111;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+  color: #ff5a24;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.social-links a {
+  color: #ff5a24;
+  text-decoration: none;
+}
+
+.social-links svg {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+}
+
+.social-links .dot,
+.social-links .youtube {
+  fill: currentColor;
+}
+
+.social-links .play {
+  fill: #fff;
+  stroke: none;
+}
+
+.social-links .linkedin {
+  font-size: 29px;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 28px;
+  }
+
+  .main-nav {
+    flex-basis: 100%;
+    order: 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-header {
+    padding: 16px;
+  }
+
+  .main-nav {
+    gap: 12px 18px;
+  }
+
+  .main-nav a {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
