@@ -59,3 +59,17 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 1. Create header
+   creat HTML,CSS
+2. Create food
+   1. create food models
+   2. create data.ts
+   3. add sample food
+   4. Add images to public
+   5. Create food service
+   6. create Home component
+      1. add ts
+      2. add HTMl
+      3. add css
+3.
+
+Create Data model in shared model
