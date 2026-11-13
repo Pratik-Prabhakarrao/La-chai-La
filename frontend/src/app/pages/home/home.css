@@ -16,9 +16,12 @@
 }
 
 .eyebrow {
+  font-family: Food Marker;
   margin: 0 0 0.4rem;
-  color: #a85b32;
-  font-size: 0.8rem;
+  color: #F69C2D;
+  -webkit-text-stroke: 0.5px #000;
+  paint-order: stroke fill;
+  font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -26,12 +29,18 @@
 
 .menu-heading h1 {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-family: "Anak Painter", sans-serif;
+  color: #e46c9a;
+  -webkit-text-fill-color: #e46c9a;
+  -webkit-text-stroke: 2px #000;
+  paint-order: stroke fill;
+  font-size: clamp(2.86rem, 6.5vw, 4.55rem);
 }
 
 .intro {
   margin: 0.75rem 0 0;
+  font-family: "Oregano", cursive;
+  font-size: 1.5rem;
   color: #76675e;
 }
 
